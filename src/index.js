@@ -3,7 +3,7 @@ const express = require('express')
 const keypress = require('keypress')
 const SseChannel = require('sse-channel')
 
-const port = process.env.PORT || 9999
+const port = process.env.PORT || 9876
 const app = express()
 const channel = new SseChannel({jsonEncode: true})
 
