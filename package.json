@@ -1,0 +1,35 @@
+{
+  "name": "autofoos-particle-mock",
+  "version": "1.0.0",
+  "description": "Simple webserver that mocks the EventSource stream provided by particle.io APIs and allows repl-commands",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "eslint .",
+    "start": "node src/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/rexxars/autofoos-particle-mock.git"
+  },
+  "keywords": [
+    "autofoos",
+    "particle.io",
+    "mock"
+  ],
+  "author": "Espen Hovlandsdal <espen@hovlandsdal.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rexxars/autofoos-particle-mock/issues"
+  },
+  "homepage": "https://github.com/rexxars/autofoos-particle-mock#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "keypress": "^0.2.1",
+    "sse-channel": "^2.0.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^5.0.0",
+    "eslint": "^1.10.3",
+    "eslint-config-bengler": "^0.5.7"
+  }
+}
